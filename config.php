@@ -1,11 +1,11 @@
 <?php
 
 	// User ID can collect from most of web sites or developer of instagram
-	define('INSTAGRAM_USER_ID', '3110802709');
+	define('INSTAGRAM_USER_ID', '');
 
 	// login instagram and get the access token 
 	//      https://www.instagram.com/developer/authentication/
-	define('INSTAGRAM_ACCESS_TOKEN', '3110802709.5807c7d.816772b719cf441d9b5355d92398eb60');
+	define('INSTAGRAM_ACCESS_TOKEN', '');
 
 	define('PHOTO_COUNT', 12);
 
