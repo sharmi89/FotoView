@@ -1,0 +1,43 @@
+.item-box{
+	position: relative;
+    height:500px;
+    background-color:#fff;
+    margin:.5rem 1rem 1rem;
+    border-radius:2px;
+    -webkit-box-shadow: 10px 10px 41px -8px rgba(0,0,0,0.62);
+	-moz-box-shadow: 10px 10px 41px -8px rgba(0,0,0,0.62);
+	box-shadow: 10px 10px 41px -8px rgba(0,0,0,0.62);
+
+}
+ 
+.item{
+	position: relative;
+	margin: 0 0 0.5em 0;
+}
+
+.item-details {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.vid-play-btn {
+    position: absolute;
+    height: 25%;
+	width: 25%;
+	top: 130px;
+	left: 130px;
+    background: url('../images/icon.svg') center no-repeat;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  color: red;
+  display: none;
+}
+
+.blueimp-gallery-controls > .description {
+  display: block;
+}
